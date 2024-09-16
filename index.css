@@ -1,0 +1,85 @@
+.main {
+    height: 100vh; /* Set to viewport height for full page view */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background to contrast the calculator */
+}
+
+.calculator {
+    background-color: #00ced1; /* Aqua background for the calculator */
+    width: 320px; /* Wider calculator for better spacing */
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+#inputBox {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-align: right;
+}
+
+.numbersSymbols {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttons {
+    width: 70px;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.buttons:hover {
+    background-color: #555;
+}
+
+#Clear {
+    background-color: #e74c3c; /* Clear button with red color */
+}
+
+#Clear:hover {
+    background-color: #c0392b;
+}
+
+#Equal {
+    background-color: #2ecc71; /* Equal button with green color */
+}
+
+#Equal:hover {
+    background-color: #27ae60;
+}
